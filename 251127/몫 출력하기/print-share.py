@@ -1,8 +1,8 @@
 count = 0
-while count < 4:
+while count < 3:
     n = int(input())
-    count += 1
-    if n % 2 ==1:
-        continue
-    else:
-        print(n//2)
+    if n % 2 == 0:      # 짝수일 때만 처리
+        print(n // 2)
+        count += 1      # 짝수 처리 개수 증가
+
+        
