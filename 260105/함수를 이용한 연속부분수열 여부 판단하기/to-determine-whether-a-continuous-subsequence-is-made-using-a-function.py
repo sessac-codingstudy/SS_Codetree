@@ -4,7 +4,7 @@ b = list(map(int, input().split()))
 
 # Please write your code here.
 def sol(a,b):
-    answer = "NO"
+    answer = "No"
     for i in range(len(a)-len(b)+1):
         if a[i:i+n2] == b:
             answer = "Yes"
